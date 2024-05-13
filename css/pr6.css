@@ -25,6 +25,10 @@
  .header a{
     text-decoration: none;
     color: #37523D;
+    &:hover{
+      color: #fff;
+      background-color: #37523D;
+    }
  }
 
  .container{
@@ -56,5 +60,9 @@
  }
  .share a{
     color: #37523D;
+    &:hover{
+      color: #fff;
+      background-color: #37523D;
+    }
  }
  
