@@ -1,0 +1,89 @@
+ @import url(reset.css);
+
+ /* *{
+   outline: 2px solid #000
+} */
+
+ body{
+   color: #37523D;
+   font-size: 20px;
+ }
+ img{
+   display: block;
+ }
+ a{
+    text-decoration: none;
+ }
+
+ .wrap{
+   display: flex;
+   justify-content: space-between;
+   width: 940px;
+   margin: 0 auto;
+}
+
+ /* 間距 */
+ .ptb-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+ .menu{
+    width: 300px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 20px;
+ }
+ .menu h2{
+    color: #fff;
+    background-color: #37523D;
+ }
+ .menu li{
+    border: 1px solid #E7EEEA;
+ }
+ .menu a{
+    color: #37523D;
+ }
+ .on{
+   background-color: #E7EEEA;
+ }
+
+ .item-list{
+    width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .item-list li{
+    margin-bottom: 20px;
+ }
+ .item{
+    display: flex;
+    text-align: center;
+ }
+ .item h3{
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #E7EEEA;
+ }
+ .item span{
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #E7EEEA;
+ }
+ .addToCart{
+    display: block;
+    color: #37523D;
+    font-weight: bold;
+    background-color: #E7EEEA;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &:hover{
+       color: #fff;
+       background-color: #37523D;
+    }
+ }
+
+ 

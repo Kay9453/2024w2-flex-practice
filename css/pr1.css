@@ -1,0 +1,43 @@
+ @import url(reset.css);
+ 
+ .content{
+    width: 1168px;
+    margin: 0 auto;
+    line-height: 1.5;
+ }
+
+ ul{
+    display: flex;
+    justify-content: center;
+ }
+ .item1{
+    border: 1px solid #37523D;
+ }
+.item2{
+    border-color: #37523D;
+    border-style: solid;
+    border-width: 1px 20px 1px 20px;
+}
+.item3{
+   border: 1px solid #37523D;
+}
+
+ .title{
+    font-size: 96px;
+    color: #37523D;
+    background-color: #E7EEEA;
+    text-align: center;
+    padding: 72px 36px;
+ }
+ h3{
+    font-size: 24px;
+    color: #37523D;
+    font-weight: bold;
+    padding: 32px 28px;
+ }
+ p{
+    font-size: 24px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 80px;
+ }

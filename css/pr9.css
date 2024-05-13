@@ -1,0 +1,59 @@
+ @import url(reset.css);
+
+ .wrap{
+    margin: 0 auto;
+    width: 309px;
+ }
+ 
+ .section{
+    border: 1px solid #E7EEEA;
+ }
+ .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #879C8B;
+    background-color: #E7EEEA;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .order-summary-text{
+    display: flex;
+    justify-content: space-between;
+ }
+ .order-summary{
+    color: #879C8B;
+    padding: 20px 16px 14px 16px;
+ }
+ .subtotal{
+    font-size: 16px;
+    padding-bottom: 16px;
+ }
+ .derlivery-charge{
+    font-size: 16px;
+ }
+ .total{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 24px;
+ }
+.shopping-list{
+    padding: 16px 16px 0 16px;   
+}
+ .list{
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+    color: #879C8B;
+ }
+ .item{
+    padding-left: 16px;
+ }
+ .item h3{
+    font-size: 16px;
+    padding-bottom: 8px;
+ }
+ .item p{
+    font-size: 20px;
+    font-weight: bold;
+ }

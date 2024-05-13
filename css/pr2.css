@@ -1,0 +1,43 @@
+ @import url(reset.css);
+
+ ul{
+    width: 1138px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+ }
+
+ .content-left{
+    width: 545px;
+    border-radius: 10px;
+    background-color: #E7EEEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .content-right{
+    width: 545px;
+    border-radius: 10px;
+    background-color: #E7EEEA;
+    padding-left: 32px;
+    padding-top: 212px;
+    padding-bottom: 212px;
+ }
+
+ h3{
+    font-size: 28px;
+    font-weight: bold;
+ }
+ p{
+    font-size: 24px;
+    color: #2d2d2d;
+ }
+ .note{
+    color: #37523D;
+    font-weight: bold;
+ }
+ .pb-1{
+    padding-bottom: 32px;
+ }
+ 

@@ -1,0 +1,94 @@
+ @import url(reset.css);
+ 
+ .wrap{
+    width: 1286px;
+    margin: 0 auto;
+    line-height: 1.5;
+ }
+
+ .list-1{
+    display: flex;
+    background-color: #E7EEEA;
+    margin-bottom: 50px;
+ }
+ .list-1 li{
+    display: flex;
+    padding: 16px 24px;
+      /* 為何沒下這行，圖片就無法自動靠上? */
+    align-items: flex-start;
+ }
+ .list-1 img{
+    object-fit: scale-down;
+    padding-right: 10px;
+ }
+ .list-1 h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #37523D;
+    padding-bottom: 20px;
+ }
+ .list-1 p{
+    font-size: 14px;
+    color: #2d2d2d;
+ }
+
+ .list-2{
+    display: flex;
+    background-color: #E7EEEA;
+    margin-bottom: 50px;
+ }
+ .list-2 li{
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .list-2 img{
+    padding-bottom: 10px;
+ }
+ .list-2 h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #37523D;
+    padding-bottom: 20px;
+ }
+ .list-2 p{
+    font-size: 14px;
+    color: #2d2d2d;
+ }
+
+ .list-3{
+    background-color: #E7EEEA;
+ }
+ .list-3 li{
+    display: flex;
+ }
+ .list-3-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .list-3-content h3{
+   font-size: 16px;
+   font-weight: bold;
+   color: #37523D;
+   padding-bottom: 20px;
+}
+.list-3-content p{
+   font-size: 14px;
+   color: #2d2d2d;
+}
+.list-3-first{
+   padding: 20px 100px 0 28px;
+}
+.list-3-second{
+   display: flex;
+   justify-content: flex-end;
+   padding: 0 28px 20px 100px;
+}
+.pl-1{
+   padding-left: 8px;
+}
+.pr-1{
+   padding-right: 8px;
+}

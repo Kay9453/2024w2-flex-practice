@@ -1,0 +1,54 @@
+ @import url(reset.css);
+ 
+ .wrap{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+ }
+ .menu{
+    background-color: #E7EEEA;
+    text-align: center;
+    padding-top: 78px;
+ }
+ .menu img{
+    padding-left: 12px;
+    padding-right: 12px;
+ }
+
+ .menu a{
+    font-size: 24px;
+    color: #37523D;
+    text-decoration:none;
+ }
+ .menu li{
+    padding-top: 28px;
+    padding-bottom: 28px;
+ }
+
+ .content{
+    padding: 78px 90px 16px 90px;
+ }
+
+.content h3{
+    font-size: 28px;
+    color: #37523D;
+    font-weight: bold;
+}
+.content p{
+    font-size: 24px;
+    color: #2d2d2d;
+}
+
+ .pic-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .pic-list img{
+    padding-bottom: 16px;
+ }
+
+ .pb-1{
+    padding-bottom: 28px;
+ }

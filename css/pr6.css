@@ -1,0 +1,60 @@
+ @import url(reset.css);
+
+ .wrap{
+    width: 907px;
+    margin: 0 auto;
+    border: 16px solid #37523D;
+    line-height: 1.5;
+ }
+ .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E7EEEA;
+    border-radius: 10px 10px 0 0;
+    /* 遮蓋 header 的圓角縫隙使用 */
+    box-shadow: -10px -10px #37523D, 10px -10px #37523D;
+    padding-left: 30px;
+    padding-right: 30px;
+
+ }
+ .header h2{
+    font-size: 16px;  
+    font-weight: bold;
+ }
+ .header a{
+    text-decoration: none;
+    color: #37523D;
+ }
+
+ .container{
+    display: flex;
+    padding: 30px 50px 30px 50px;
+ }
+ .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+ }
+ .article h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d2d2d;
+    padding-bottom: 50px;
+ }
+ .article p{
+    font-size: 16px;
+    color: #2d2d2d;
+ }
+ .share{
+    display: flex;
+    font-size: 20px;
+ }
+ .share li{
+    padding-left: 10px;
+ }
+ .share a{
+    color: #37523D;
+ }
+ 

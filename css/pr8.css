@@ -1,0 +1,18 @@
+ @import url(reset.css);
+
+ .wrap{
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 1.5;
+ }
+ .text-bg{
+    background-color: #B3D4D1;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 60px;
+ }
+ 

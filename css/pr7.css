@@ -1,0 +1,47 @@
+ @import url(reset.css);
+
+ .wrap{
+    margin: 0 auto;
+    border-left: 1px solid #2d2d2d;
+ }
+ .content-bg{
+    background-color: #E7EEEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+ }
+ .content{
+    text-align: center;
+ }
+ .content h3{
+    font-size: 32px;
+    color: #37523D;
+    font-weight: bold;
+    padding-top: 30px;
+ }
+
+ .footer{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 40px;
+ }
+ .menu{
+    display: flex;
+ }
+ /* .menu li{
+    padding: 30px 20px;
+ } */
+ .menu a{
+    text-decoration: none;
+    color: #2d2d2d;
+    padding: 30px 20px;
+    /* padding: 20px 20px; */
+ }
+ .menu a:hover{
+    color: #fff;
+    background-color: #37523D;
+ }
